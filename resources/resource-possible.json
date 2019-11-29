@@ -1,0 +1,26 @@
+{
+	"index_patterns": ["resource-possible"],
+	"mappings": {
+		"doc": {
+			"dynamic": "strict",
+			"properties": {
+				"resource_op_eventName": {
+					"type": "keyword"
+				},
+				"resource_op_eventSource": {
+					"type": "keyword"
+				},
+				"resources": {
+				  "properties": {
+					"resource_id": {
+					  "type": "keyword"
+					},
+					"resource_type": {
+						"type": "keyword"
+					}
+				  }
+				}
+			}
+		}
+	}
+}

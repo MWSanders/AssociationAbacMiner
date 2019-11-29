@@ -1,0 +1,10 @@
+{
+  "valid_keys" :["sourceIPAddress", "eventName", "eventSource", "userIdentity_userName",
+                  "userAgent", "userIdentity_sessionContext_attributes_mfaAuthenticated", "userIdentity_invokedBy", "eventVersion", "userIdentity_accessKeyId", "requestParameters_path",
+                  "requestParameters_encryptionContext_PARAMETER_ARN", "requestParameters_name", "requestParameters_pipelineName", "apiVersion", "requestParameters_maxResults", "eventType"],
+  "anonymized_keys": {
+    "uncorrelated_strings":["userIdentity_userName", "userIdentity_accessKeyId", "requestParameters_pipelineName", "requestParameters_name", "requestParameters_encryptionContext_PARAMETER_ARN"],
+    "ips": ["sourceIPAddress"]
+
+  }
+}

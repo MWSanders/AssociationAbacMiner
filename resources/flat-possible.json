@@ -1,0 +1,20 @@
+{
+    "index_patterns": [
+        "flat-*"
+    ],
+    "mappings": {
+        "doc": {
+            "dynamic_templates": [
+                {
+                  "everything_keyword": {
+                    "match_mapping_type": "*",
+                    "match":   "*",
+                    "mapping": {
+                      "type": "keyword"
+                    }
+                  }
+                }
+            ]
+        }
+    }
+}
