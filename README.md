@@ -3,10 +3,9 @@ Uses association/frequent itemset mining to generate and score ABAC policies fro
 Dependencies
 ----
 * Python 3.6 (Some versions of MacOS and Python appear to have problems with the pool.starmap method used in this code not properly exiting so Windows or Linux should be used for running the python code)
-* Mongo 3.6
+* MongoDB 3.6
 * Elasticsearch 6.3
-
-These instructions assume a running Elasticsearch instance and a running Mongo instance already populated with AWS CloudTrail events using the CloudTrailIngestor project
+* https://github.com/MWSanders/CloudTrailIngestor these instructions the CloudTrailIngestor project has already been run to ingest AWS CloudTrail logs into MongoDB
 
 Basic concepts
 ----
@@ -49,5 +48,6 @@ The most important settings in job_generator.py are:
 
 Reference
 ----
-Mining Least Privilege Attribute Based Access Control Policies.  By Matthew Sanders and Chuan Yue.  
-Annual Computer Security Applications Conference (ACSAC), 2019.
+Mining Least Privilege Attribute Based Access Control Policies.   
+By Matthew Sanders and Chuan Yue.  
+Annual Computer Security Applications Conference (ACSAC), 2019.  
