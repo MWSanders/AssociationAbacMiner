@@ -5,7 +5,7 @@ Dependencies
 * Python 3.6 (Some versions of MacOS and Python appear to have problems with the pool.starmap method used in this code not properly exiting so Windows or Linux should be used for running the python code)
 * MongoDB 3.6
 * Elasticsearch 6.3
-* https://github.com/MWSanders/CloudTrailIngestor these instructions the CloudTrailIngestor project has already been run to ingest AWS CloudTrail logs into MongoDB
+* https://github.com/MWSanders/CloudTrailIngestor these instructions assume the CloudTrailIngestor project has already been run to ingest AWS CloudTrail logs into MongoDB
 
 Basic concepts
 ----
