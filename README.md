@@ -51,3 +51,4 @@ Reference
 Mining Least Privilege Attribute Based Access Control Policies.   
 By Matthew Sanders and Chuan Yue.  
 Annual Computer Security Applications Conference (ACSAC), 2019.  
+https://inside.mines.edu/~chuanyue/papers/ACSAC19.pdf
